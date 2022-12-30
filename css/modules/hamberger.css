@@ -1,0 +1,136 @@
+.hamburger {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    z-index: 2000;
+    gap: 3px;
+
+}
+
+.hamburger .centers {
+    width: 38px;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    display: block;
+    background-color: #DAB600;
+    margin-bottom: 5px;
+    transition: all 0.4s;
+}
+
+.img__close {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
+.hamburger.hamburger-active {
+    display: flex;
+    opacity: 0;
+}
+
+.hamburger span:last-child {
+    margin-bottom: 0;
+}
+
+.hamburger.hamburger-active span:first-child {
+    transform: rotateZ(45deg) translateY(6px);
+}
+
+.hamburger.hamburger-active span:last-child {
+    transform: rotateZ(-45deg) translateY(-5px);
+}
+
+.hamburger.hamburger-active span:nth-child(2) {
+    display: none;
+}
+
+.menu__overlay {
+    display: block;
+    position: fixed;
+    left: -150%;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 0;
+    transition: all 1s;
+}
+
+.menu__phone {
+    width: 50%;
+    height: 100vh;
+    background-color: #DAB600;
+    z-index: 1000;
+    padding: 30px;
+}
+
+.menu__phone>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+/* media */
+
+@media (max-width: 970px) {
+    .header__body {
+        flex-direction: column;
+    }
+
+    .nav__link {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media (max-width: 426px) {
+
+    @media (max-width: 325px) {
+        .nav__link {
+            flex-direction: column;
+        }
+
+        .menu__overlay {
+            width: 100%;
+            height: 100%;
+        }
+
+        .menu__phone {
+            width: 50%;
+            height: 100%;
+        }
+    }
+}
+
+.menu__overlay.menu-active {
+    /* display: block; */
+    left: 0;
+}
+
+
+@media (max-width: 400px) {
+    .img__close {
+        margin-right: -20px;
+    }
+
+    .menu__phone {
+        padding: 33px;
+        width: 55%;
+    }
+}

@@ -1,0 +1,59 @@
+@import url(./modules/header.css);
+@import url(./modules/hamberger.css);
+@import url(./modules/midas.css);
+@import url(./modules/company.css);
+@import url(./modules/why.css);
+@import url(./modules/service.css);
+@import url(./modules/case.css);
+@import url(./modules/ivent.css);
+@import url(./modules/footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    background: #000;
+    font-family: 'Nunito Sans', Courier, monospace;
+    font-style: normal;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    max-width: 1305px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
