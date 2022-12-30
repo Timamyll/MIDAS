@@ -96,6 +96,11 @@
     transition: all 0.3s ease-in-out;
     background: #FFFFFF;
     right: 673px;
+    z-index: 1000;
+}
+
+.slider__arrows-left-case:hover {
+    background: #DAB600;
 }
 
 .slider__arrows-right-case {
@@ -110,6 +115,10 @@
     transition: all 0.3s ease-in-out;
     background: #FFFFFF;
     right: 625px;
+}
+
+.slider__arrows-right-case:hover {
+    background: #DAB600;
 }
 
 .case__video {
@@ -269,7 +278,7 @@
 
 @media (max-width: 455px) {
     .slider__arrows-right-case {
-        bottom: 285px;
+        bottom: 287px;
         right: -332px;
     }
 

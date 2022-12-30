@@ -44,6 +44,7 @@ body {
     font-family: 'Nunito Sans', Courier, monospace;
     font-style: normal;
     color: #FFFFFF;
+    scroll-behavior: smooth;
 }
 
 input {

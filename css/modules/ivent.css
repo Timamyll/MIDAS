@@ -172,6 +172,7 @@
     -moz-appearance: none;
     appearance: none;
     background-position-x: 441px;
+    cursor: pointer;
 }
 
 .ivent__select-text {
@@ -181,12 +182,11 @@
     color: #FFFFFF;
     padding-top: 70px;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .ivent__buttom {
     text-align: center;
-
-
 }
 
 .ivent__button {
@@ -198,6 +198,7 @@
     transition: all 0.3s ease-in-out;
     background: transparent;
     margin-top: 38px;
+    cursor: pointer;
 }
 
 .ivent__button:hover {
