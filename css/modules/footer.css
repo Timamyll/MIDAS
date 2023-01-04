@@ -11,6 +11,7 @@
 .footer__body {
     display: flex;
     justify-content: space-between;
+    padding-top: 95px;
 }
 
 .footer__box {
