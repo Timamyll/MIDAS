@@ -96,7 +96,7 @@
     transition: all 0.3s ease-in-out;
     background: #FFFFFF;
     right: 673px;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .slider__arrows-left-case:hover {

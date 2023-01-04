@@ -7,11 +7,11 @@ const close = document.querySelector(".img__close");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger-active");
   menu.classList.toggle("menu-active");
-  if (hamburger.classList.contains("hamburger-active")) {
-    body.style.overflow = "hidden";
-  } else {
-    body.style.overflow = "visible";
-  }
+  // if (hamburger.classList.contains("hamburger-active")) {
+  //   body.style.overflow = "hidden";
+  // } else {
+  //   body.style.overflow = "visible";
+  // }
 });
 
 menu.addEventListener("click", (event) => {

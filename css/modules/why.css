@@ -28,6 +28,9 @@
 
 }
 
+
+
+
 @media (max-width: 1010px) {
     .why__body {
 
@@ -77,6 +80,9 @@
     padding-bottom: 110px;
 }
 
+.sori {
+    padding-bottom: 0;
+}
 
 .why__items {
     font-family: 'Oswald';
@@ -134,22 +140,6 @@
     height: 25px;
 }
 
-/* 
-.slick-dots {
-    display: flex;
-    gap: 30px;
-}
-
-#slick-slide-control31,
-#slick-slide-control30,
-#slick-slide-control32,
-#slick-slide-control33,
-#slick-slide-control34 {
-    background: rgb(255 255 255);
-    color: rgb(255 255 255);
-    border-radius: 50%;
-    width: 19px;
-} */
 
 @media (max-width: 1223px) {
     .why__boxs {
