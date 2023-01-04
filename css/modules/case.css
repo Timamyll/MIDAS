@@ -224,6 +224,10 @@
     .slider__arrows-right-case {
         bottom: 223px;
     }
+
+    .case__title {
+        margin-top: 100px;
+    }
 }
 
 
