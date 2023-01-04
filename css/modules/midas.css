@@ -222,14 +222,14 @@
 
     .slider__arrows-left {
         top: -19px;
-        margin-top: -60px;
+        margin-top: -43px;
         left: 0;
         bottom: 640px;
     }
 
     .slider__arrows-right {
         top: -19px;
-        margin-top: -60px;
+        margin-top: -43px;
         /* right: 0; */
         left: 58px;
         bottom: 640px;

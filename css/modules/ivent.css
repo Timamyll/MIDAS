@@ -234,7 +234,10 @@
     .ivent__title {
         width: 57%;
         font-size: 57px;
+        padding-left: 5px;
     }
+
+    .ivent__title:hover {}
 
     .ivent__text {
         font-size: 30px;

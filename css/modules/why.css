@@ -54,7 +54,7 @@
     color: #000;
     transition: all 0.3s ease-in-out;
     background: #FFFFFF;
-    top: 223px;
+    bottom: 0;
     right: 50px;
 }
 
@@ -67,7 +67,7 @@
     color: #000;
     transition: all 0.3s ease-in-out;
     background: #FFFFFF;
-    top: 223px;
+    bottom: 0;
     right: 0;
 }
 
@@ -177,21 +177,14 @@
     }
 
     .why__title span {
-        border-right: 3px solid #DAB600;
-        padding-right: 20px;
+        border-right: 5px solid #DAB600;
+        padding-right: 5px;
         border-bottom: 0px;
 
     }
 }
 
 @media (max-width: 545px) {
-    .slider__arrows-left-why {
-        top: 227px;
-    }
-
-    .slider__arrows-right-why {
-        top: 227px;
-    }
 
     .why__items {
         font-size: 24px;
@@ -212,13 +205,5 @@
 @media (max-width: 450px) {
     .slick-dots {
         gap: 22px;
-    }
-
-    .slider__arrows-left-why {
-        top: 268px;
-    }
-
-    .slider__arrows-right-why {
-        top: 268px;
     }
 }

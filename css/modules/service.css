@@ -106,12 +106,20 @@
 }
 
 .services .subtitle {
-    color: #000;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
     margin-bottom: 0.625rem;
 }
 
 .services .text {
-    line-height: 1.4583rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #FFFFFF;
 }
 
 @media (max-width: 1366px) {
@@ -182,9 +190,12 @@
     }
 
     .services .title {
-        width: 75%;
-        line-height: 4.375rem;
-        letter-spacing: 0.2em;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 90%;
+        color: #FFFFFF;
+        padding-left: 5px;
+
     }
 
     .services .title:hover {
@@ -229,11 +240,11 @@
         gap: 1.25rem;
     }
 
-    .services .title {
+    /* .services .title {
         width: 100%;
         letter-spacing: 0;
         margin: 0;
-    }
+    } */
 
     .services .title:hover {
         line-height: 3.125rem;
@@ -270,9 +281,9 @@
 }
 
 @media (max-width: 650px) {
-    .services .title {
+    /* .services .title {
         line-height: 3.75rem;
-    }
+    } */
 
     .services .title:hover {
         line-height: 2.5rem;
@@ -284,11 +295,11 @@
         display: block;
     }
 
-    .services .title {
+    /* .services .title {
         line-height: 4.5rem;
         padding-left: 0.625rem;
         font-size: 60px;
-    }
+    } */
 
     .services .title:hover {
         line-height: 1.875rem;

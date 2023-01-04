@@ -197,6 +197,7 @@ hr {
 
     .company__title {
         font-size: 68px;
+        padding-left: 5px;
     }
 
     .company__slider {
