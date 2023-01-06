@@ -4,6 +4,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 78vh; */
+    position: relative;
+}
+
+.frame {
+    position: absolute;
+    width: 100vw;
+    height: 8.125rem;
+    top: 0;
+    background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%);
 }
 
 .container {}
